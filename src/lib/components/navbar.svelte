@@ -222,11 +222,11 @@
     <div class="navlinks">
         {#if showMenu || !isMobile}
             <ul class="menu-links">
-                <li><a href="/" on:click={smoothScroll} class="link">Inicio</a></li>
-                <li><a href="/Servicios" on:click={smoothScroll} class="link">Servicios</a></li>
-                <li><a href="/Productos" on:click={smoothScroll} class="link">Productos</a></li>
-                <li><a href="#Guia" on:click={smoothScroll} class="link">Guia de huerta</a></li>
-                <li class="ingresarmobil"><a href="#ingresar" on:click={smoothScroll} class="link">Ingresar</a></li>
+                <li><a href="/" class="link">Inicio</a></li>
+                <li><a href="/Servicios"  class="link">Servicios</a></li>
+                <li><a href="/Productos"  class="link">Productos</a></li>
+                <li><a href="/GuiadeHuerta"  class="link">Guia de huerta</a></li>
+                <li class="ingresarmobil"><a href="#ingresar"  class="link">Ingresar</a></li>
             </ul>
         
         {/if}

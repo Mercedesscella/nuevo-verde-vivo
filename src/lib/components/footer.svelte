@@ -38,7 +38,7 @@
     <ul>
         <li>Contacto: @gmial</li>
         <li class="li2">Horario de atencion: <br> De 9:00 a 18:00 de lunes a sabado</li>
-        <li>Sobre nosotros</li>
+        <li><a href="/Sobrenosotros">Sobre nosotros</a></li>
     </ul>
 
 </div>

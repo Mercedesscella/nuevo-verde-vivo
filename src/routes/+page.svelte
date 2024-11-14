@@ -9,12 +9,14 @@
 <style>
     :root{
         font-family: "Roboto", sans-serif;
+        font-size: 16px;
     }
+
 
 </style>
 
 
 
-<div class="Continer">
+<div class="main">
     <Home/>
 </div>

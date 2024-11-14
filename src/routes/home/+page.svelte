@@ -1,7 +1,6 @@
 <script>
     import Carousel from '../../lib/components/carousel.svelte'
-
-    
+	   
 let images = [  
   'static/img/ofertas.jpeg',
   'static/img/plantinesProductos.jpeg',  
@@ -21,4 +20,5 @@ let images = [
 
 <div class="Home" id="Inicio">
     <Carousel/>
+    
 </div>
