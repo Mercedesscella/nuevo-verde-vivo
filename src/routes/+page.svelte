@@ -11,6 +11,11 @@
         font-family: "Roboto", sans-serif;
         font-size: 16px;
     }
+    @media (min-width: 1440px){
+        :root{
+            font-size: 18px;
+        }
+    }
 
 
 </style>

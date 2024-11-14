@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: flex-start;
     scrollbar-width: none;
     overflow: auto;

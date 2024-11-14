@@ -8,7 +8,7 @@
 <style>
     .card{
         background-color: white;
-        width: 8rem;
+        width: 8.5rem;
         height: 12rem;
         padding: 1rem;
         border-radius: 0.4rem;
@@ -39,10 +39,50 @@
         display: flex;
         justify-content: center;
         align-items: flex-end;
+        
     }
     img{
         max-width: none;
         height: 100%;
+    }
+    @media (min-width: 768px){
+        .card{
+            width: 12rem;
+            height: 15rem;
+        }
+        .titulo{
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+        }
+        .precio{
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding: 0.5rem 0;
+        }
+        .descripcion{
+            font-size: 0.95rem;
+            font-weight: 400;
+        }
+    }
+    @media (min-width: 1440px){
+        .card{
+            width: 13rem;
+            height: 18rem;
+        }
+        .titulo{
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+        }
+        .precio{
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding: 0.5rem 0;
+        }
+        .descripcion{
+            font-size: 0.95rem;
+            font-weight: 400;
+        }
+
     }
 </style>
 
