@@ -63,7 +63,39 @@
     <Baner
         h2="Titulo mediano"
         h1="Titulo grande"
-        img="/img/lechugamanteca.jpg"
+        img="/img/img3.jpg"
     />
+
+    <Container> 
+                  
+        <Card
+        titulo="Plantines"
+        img="/img/lechugamanteca.jpg"
+        precio="$ 1.200"
+        descripcion="Plantin de tomate cherry 10cm alto"
+        />
+
+        <Card
+        titulo="Plantines"
+        img="/img/lechugamanteca.jpg"
+        precio="$ 1.200"
+        descripcion="Plantin de tomate cherry 10cm alto"
+        />
+
+        <Card
+        titulo="Plantines"
+        img="/img/lechugamanteca.jpg"
+        precio="$ 1.200"
+        descripcion="Plantin de tomate cherry 10cm alto"
+        />
+
+        <Card
+        titulo="Plantines"
+        img="/img/lechugamanteca.jpg"
+        precio="$ 1.200"
+        descripcion="Plantin de tomate cherry 10cm alto"
+        />
+
+    </Container>
 
 </div>

@@ -4,6 +4,12 @@
     let showMenu = false;
     let isMobile = true;
 
+    function closeMenu() {
+        if (isMobile) {
+            showMenu = false;
+        }
+    }
+
     function toggleMenu() {
         if (isMobile) {
             showMenu = !showMenu;
@@ -222,11 +228,11 @@
     <div class="navlinks">
         {#if showMenu || !isMobile}
             <ul class="menu-links">
-                <li><a href="/" class="link">Inicio</a></li>
-                <li><a href="/Servicios"  class="link">Servicios</a></li>
-                <li><a href="/Productos"  class="link">Productos</a></li>
-                <li><a href="/GuiadeHuerta"  class="link">Guia de huerta</a></li>
-                <li class="ingresarmobil"><a href="#ingresar"  class="link">Ingresar</a></li>
+                <li><a href="/" class="link" on:click={closeMenu}>Inicio</a></li>
+                <li><a href="/Servicios"  class="link" on:click={closeMenu}>Servicios</a></li>
+                <li><a href="/Productos"  class="link" on:click={closeMenu}>Productos</a></li>
+                <li><a href="/GuiadeHuerta"  class="link" on:click={closeMenu}>Guia de huerta</a></li>
+                <li class="ingresarmobil"><a href="#ingresar"  class="link" on:click={closeMenu}>Ingresar</a></li>
             </ul>
         
         {/if}
