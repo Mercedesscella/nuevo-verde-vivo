@@ -16,6 +16,7 @@
         box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.10);
         display: flex;
         flex-direction: column;
+        margin: 0.40rem;
     }
     .titulo{
         font-size: 0.8rem;

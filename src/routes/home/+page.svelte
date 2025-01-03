@@ -17,6 +17,7 @@ let images = [
 <style>
      .Home{
         width: 100%;
+        min-height: 50vh;
     }
 
 </style>

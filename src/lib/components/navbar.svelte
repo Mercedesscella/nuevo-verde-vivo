@@ -129,9 +129,7 @@
     .divcarrito{
         padding-left: 5%;
     }
-    .ingresarmobil{
-
-    }
+    
     .carritoescritorio{
         display: none;
     }
@@ -141,6 +139,7 @@
         .Navbar {
             padding: 1rem 5%;
             flex-direction: column;
+            gap: 1rem;
         }
         
         .logo {
@@ -161,6 +160,7 @@
             flex-direction: row;
             width: 100%;
             justify-content: space-between;
+            height: 2rem;
         }
         .menu-links {
             flex-direction: row;
@@ -201,8 +201,8 @@
     }
     @media (min-width: 1024px) {
         .Navbar {
-            padding: 1rem 5% 0.3rem;
-            
+            padding: 1.7rem 5%;
+            gap: 1.7rem;
         }
         .link{
             font-size: 1.3rem;

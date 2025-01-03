@@ -8,7 +8,7 @@
 <style>
     .baner{
         background-color: rgb(162, 238, 168);
-        width: 100%;
+        width: 90%;
         height: 15rem;
         border-radius: 0.4rem;
         box-sizing: border-box;
@@ -16,7 +16,7 @@
         box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.10);
         display: flex;
         flex-direction: column ;
-        margin: 1rem 0;
+        margin: 1rem 5%;
         box-sizing: border-box;
     }
     .texto{
@@ -53,6 +53,9 @@
     @media(min-width: 1024px){
         .baner{
             flex-direction: row;
+            margin: 3rem 3%;
+            width: 94%;
+        
 
         }
         .texto{
