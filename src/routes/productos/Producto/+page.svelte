@@ -1,5 +1,5 @@
 <script>
-	import CardProducto from "$lib/components/cardProducto.svelte";
+	import CardProducto from "$lib/components/CardProducto.svelte";
 
 	
 </script>

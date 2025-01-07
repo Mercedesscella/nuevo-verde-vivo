@@ -1,7 +1,7 @@
 <script>
     import{page}from "$app/stores";
-	import Navbar from "$lib/components/navbar.svelte";
-    import Footer from "$lib/components/footer.svelte";
+	import Navbar from "$lib/components/Navbar.svelte";
+    import Footer from "$lib/components/Footer.svelte";
     /*let currentPage = $page.url.pathname;   */
    
 

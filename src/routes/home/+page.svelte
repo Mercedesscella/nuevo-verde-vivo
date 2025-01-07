@@ -1,8 +1,8 @@
 <script>
-    import Carousel from '../../lib/components/carousel.svelte'
-    import Baner from '$lib/components/baner.svelte';
-    import Container from '$lib/components/container.svelte';
-    import Card from '../../lib/components/card.svelte';
+    import Carousel from '../../lib/components/Carousel.svelte'
+    import Baner from '$lib/components/Baner.svelte';
+    import Container from '$lib/components/Container.svelte';
+    import Card from '../../lib/components/Card.svelte';
 	   
 let images = [  
   'static/img/ofertas.jpeg',

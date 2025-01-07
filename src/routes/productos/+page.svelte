@@ -1,9 +1,8 @@
 <script>
-// @ts-nocheck
-
-	import Baner from '$lib/components/baner.svelte';
-    import Container from '$lib/components/container.svelte';
-    import Card from '../../lib/components/card.svelte';
+	import Baner from '$lib/components/Baner.svelte';
+	import CardProducto from '$lib/components/CardProducto.svelte';
+    import Container from '$lib/components/Container.svelte';
+    import Card from '../../lib/components/Card.svelte';
 </script>
 
 <style>
@@ -33,6 +32,14 @@
 
 <div class="Productos" id="Productos">
     <h1>Productos</h1>
+    <CardProducto
+        fotoProducto= "/img/img2.jpg"
+        titulo= "Este es el titulo del primer producto."
+        precio= "2.599"
+        descripcion= "descripcion general del producto nuevo vendido hoy"
+        stock= "2"
+        cantidad= "1"
+    />
     <Container> 
                   
         <Card
@@ -40,6 +47,7 @@
         img="/img/lechugamanteca.jpg"
         precio="$ 1.200"
         descripcion="Plantin de tomate cherry 10cm alto"
+        
         />
 
         <Card

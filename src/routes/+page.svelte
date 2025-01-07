@@ -1,5 +1,5 @@
 <script>
-	import Navbar from './../lib/components/navbar.svelte';
+	import Navbar from '../lib/components/Navbar.svelte';
     import '../styles/reset.css';
     import '../styles/colors.css';
     import Home from './Home/+page.svelte';
