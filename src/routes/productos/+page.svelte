@@ -23,9 +23,7 @@
         }
     }
     @media (min-width: 1024px){
-        h1{
-            margin: 1.5rem 3%;
-        }
+        
     }
     
 </style>
@@ -37,8 +35,9 @@
         titulo= "Este es el titulo del primer producto."
         precio= "2.599"
         descripcion= "descripcion general del producto nuevo vendido hoy"
-        stock= "2"
+        stock= "4"
         cantidad= "1"
+        fotosMini={["/img/img2.jpg", "/img/img2.jpg", "/img/img2.jpg"]}
     />
     <Container> 
                   
