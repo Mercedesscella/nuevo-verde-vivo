@@ -15,6 +15,7 @@
         const width = container.clientWidth;
         container.scrollTo({ left: index * width, behavior: "smooth" });
     }
+
 </script>
     
   
@@ -30,14 +31,18 @@
       height: 100%;
       gap: 2rem;
       margin: 0 auto; 
-      overflow: scroll;
+      overflow-x: auto;
       position: relative; 
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
     } 
     
     .image-wrapper { 
       min-width: 100%;
       display: flex;
       align-items: flex-end;
+      scroll-snap-align: center;
     } 
     
     .image-wrapper img {
