@@ -43,12 +43,15 @@
       display: flex;
       align-items: flex-end;
       scroll-snap-align: center;
+      overflow: hidden;
     } 
     
     .image-wrapper img {
       width: 100%; 
-      height: auto; 
-    } 
+      height: 100%;
+      object-fit: cover; 
+    }
+
     .dots{
       position: absolute;
       display: flex;
@@ -67,7 +70,9 @@
     .dot.active{
       background-color:var(--newGrowph);
     }
-    
+    @media (min-width:480px){
+       
+    }
     
 
   </style>

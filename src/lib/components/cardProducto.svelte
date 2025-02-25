@@ -56,7 +56,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 14rem;
+        height: 20rem;
     }
     .fotoPrincipal{
         display: none;
